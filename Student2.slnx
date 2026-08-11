@@ -1,0 +1,15 @@
+using StudentLibrary;
+
+class Program
+{
+    static void Main()
+    {
+        Student s = new Student();
+
+        Console.WriteLine(s.Name);      
+
+        s.ShowPublic();                  
+
+       
+    }
+}
